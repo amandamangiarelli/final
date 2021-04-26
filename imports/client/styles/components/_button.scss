@@ -1,0 +1,19 @@
+.button {
+  color: $orange;
+  background-color: $darkpurple;
+  border: 1px solid $darkpurple;
+  cursor: pointer;
+  font-weight: 600;
+  margin-right: 1.1rem;
+  padding: 1.1rem;
+  outline: none;
+
+  &:hover, &:focus {
+    background: $red;
+  }
+}
+
+.button--round {
+  height: 4rem;
+  width: 4rem;
+}

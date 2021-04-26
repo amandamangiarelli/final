@@ -1,0 +1,28 @@
+//colors
+$peach: #ffa372;
+$darkpurple: #621055;
+$red: #b52b65;
+$orange: #ed6663;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: $orange;
+  color: $darkpurple;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: Georgia, serif;
+}
+
+@import './components/_title.scss';
+@import './components/_wrapper.scss';
+@import './components/_addPost.scss';
+@import './components/_posts.scss';
+@import './components/_button.scss';
+@import './components/_footer.scss';
+@import './components/_comments.scss';
